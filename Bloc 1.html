@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bloc 1">
+    <title>Mon tableau de bord</title>
+    <link rel = "stylesheet" type="text/css" href="BlocsStyle.css">
+</head>
+<body>
+    <main>
+        <h1>Auto-évaluation du bloc 1 : semaines 1 à 3</h1>
+        <section>
+            <h2>Etudiant(123456)</h2>
+        </section>
+        <section> <!-- Le tableau -->
+            <table>
+                <caption>Journaux hebdomadaires</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Semaine</th>
+                        <th scope="col">Dates</th>
+                        <th scope="col">Envoyé</th>
+                        <th scope="col">Consulter l'évaluation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="Bloc%201.html">7 au 11 sept</a> </td>
+                        <td>Oui</td>
+                        <td><a href="Bloc%201.html">Voir commentaires</a> </td>
+                    </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="Bloc%201.html">14 au 18 sept</a> </td>
+                    <td>Oui</td>
+                    <td>    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="Bloc%201.html">22 au 25 sept</a> </td>
+                    <td>Non</td>
+                    <td>  </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <!-- Formulaire -->
+            <h2>Auto-évaluation</h2>
+            <form method="POST">
+                <label class="bloc">
+                    Ce qui a bien fonctionné :
+                    <br>
+                    <textarea placeholder="Veuillez insérer votre réponse" cols="50" rows="4">
+
+                    </textarea>
+                </label>
+                <label class="bloc">
+                    Ce que je dois améliorer :
+                    <br>
+                    <textarea cols="50" rows="4" placeholder="Veuillez insérer votre réponse">
+                    </textarea>
+                </label>
+                <div>
+                    <input type="checkbox" id="je" name="je" value="je">
+                    <label for="je">Je comprends qu'une fois envoyée, je ne pourrai plus <br> modifier mon auto-évaluation</label>
+                </div>
+                <button type="reset">Annuler</button>
+                <button type="submit">Envoyer</button>
+            </form>
+        <section>
+            <h3><a href="http://www.cegepoutaouais.qc.ca/" target="_blank" rel="noreferrer noopener">Cegep</a> </h3>
+        </section>
+
+    </main>
+
+</body>
+</html>

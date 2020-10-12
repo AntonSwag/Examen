@@ -1,0 +1,36 @@
+/* | Ligne sous le titre h1 | */
+
+    h1 {
+        position: relative;
+        right: -3em;
+        line-height: 4em;
+    }
+    section:first-of-type{
+        position: fixed;
+        top: -0em;
+        right: -0em;
+    }
+
+
+
+
+/* | Bordure des blocs | */
+
+    p {
+        border-color: black;
+        border-style: solid;
+        line-height: 10em;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        right: -20em;
+    }
+    figure{
+        text-align: center;
+    }
+
+    h3{
+        position: fixed;
+        bottom: -0em;
+        right: -0em;
+    }
